@@ -20,11 +20,11 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>SAMPLE-RELEASE</id>
+      <id>deployment</id>
       <url>http://ec2-3-18-250-43.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/SAMPLE-RELEASE</url>
     </repository>
     <snapshotRepository>
-      <id>SAMPLE-SNAP</id>
+      <id>deployment</id>
       <url>http://ec2-3-18-250-43.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/SAMPLE-SNAP</url>
     </snapshotRepository>
   </distributionManagement>
