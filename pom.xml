@@ -21,11 +21,11 @@
   <distributionManagement>
     <repository>
       <id>deployment</id>
-      <url>http://ec2-3-18-250-43.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/SAMPLE-RELEASE</url>
+      <url>http://ec2-3-19-102-79.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/TestRelease</url>
     </repository>
     <snapshotRepository>
       <id>deployment</id>
-      <url>http://ec2-3-18-250-43.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/SAMPLE-SNAP</url>
+      <url>http://ec2-3-19-102-79.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/TestSnapshots</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
